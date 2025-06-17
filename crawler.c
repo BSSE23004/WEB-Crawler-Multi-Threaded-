@@ -153,7 +153,7 @@ int main(int argc, char *argv[]) {
 
     const char *url_file = argv[1];
     int num_threads = atoi(argv[2]);
-    // int chunk_size = atoi(argv[3]);  // Not used in this version
+    int chunk_size = atoi(argv[3]); 
 
     if (curl_global_init(CURL_GLOBAL_ALL) != 0) {
         fprintf(stderr, "curl_global_init() failed\n");
