@@ -14,6 +14,11 @@ For Plotting : python3 plot_script.py
 Run:./crawler urls.txt <num_threads> <chunk_size>
 
 
+./crawler urls.txt 1 100
+./crawler urls.txt 2 50
+./crawler urls.txt 4 25
+./crawler urls.txt 8 100
+
 <url_file>: Path to the text file with URLs (e.g., urls.txt).
 <num_threads>: Number of threads (e.g., 2, 4, 8).
 <chunk_size>: Number of words per thread (not implemented; use any integer, e.g., 1000).
